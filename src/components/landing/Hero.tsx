@@ -44,12 +44,11 @@ export function Hero() {
           </div>
           <div className="hidden lg:flex justify-center">
             <Image
-              src="https://placehold.co/500x500.png"
+              src="/images/hero-image.png"
               alt="Dr. Lucas Ribeiro atendendo um paciente"
               width={450}
               height={450} 
               className="rounded-full object-cover shadow-2xl"
-              data-ai-hint="physiotherapist patient"
             />
           </div>
         </div>

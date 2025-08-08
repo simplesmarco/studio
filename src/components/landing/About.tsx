@@ -37,12 +37,11 @@ export function About() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <Image
-              src="https://placehold.co/500x550.png"
+              src="/images/doctor-profile.png"
               alt="Foto do Dr. Lucas Ribeiro"
               width={500}
               height={550}
               className="rounded-xl object-cover shadow-lg"
-              data-ai-hint="professional doctor"
             />
           </div>
         </div>
