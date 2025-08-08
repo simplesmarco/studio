@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import Image from 'next/image';
 
 const specialties = [
   {
@@ -6,24 +7,32 @@ const specialties = [
     description: 'Técnica manual para alinhamento da coluna vertebral.',
     indications: 'Dores nas costas, hérnias, ciática, dores no pescoço.',
     benefits: 'Alívio imediato da dor, melhora da postura, aumento da mobilidade.',
+    image: 'https://placehold.co/600x400.png',
+    hint: 'chiropractic adjustment'
   },
   {
     title: 'LIBERAÇÃO MIOFASCIAL',
     description: 'Técnica para liberar tensões nos músculos e fáscias.',
     indications: 'Tensões musculares, dor crônica, limitação de movimento.',
     benefits: 'Relaxamento muscular, melhora da flexibilidade, redução da dor.',
+    image: 'https://placehold.co/600x400.png',
+    hint: 'myofascial release'
   },
   {
     title: 'DRY NEEDLING',
     description: 'Técnica com agulhas para desativar pontos-gatilho.',
     indications: 'Dores musculares específicas, tensões localizadas.',
     benefits: 'Alívio rápido da dor, relaxamento muscular profundo.',
+    image: 'https://placehold.co/600x400.png',
+    hint: 'dry needling'
   },
   {
     title: 'ORTOPEDIA',
     description: 'Tratamento de lesões e disfunções do sistema músculo-esquelético.',
     indications: 'Lesões esportivas, reabilitação, problemas articulares.',
     benefits: 'Recuperação funcional, prevenção de lesões, fortalecimento.',
+    image: 'https://placehold.co/600x400.png',
+    hint: 'orthopedic therapy'
   },
 ];
 
@@ -38,7 +47,15 @@ export function Specialties() {
         </div>
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2">
           {specialties.map((spec, index) => (
-            <Card key={index} className="flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+            <Card key={index} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+              <Image
+                src={spec.image}
+                alt={`Imagem sobre ${spec.title}`}
+                width={600}
+                height={400}
+                className="w-full h-48 object-cover"
+                data-ai-hint={spec.hint}
+              />
               <CardHeader>
                 <CardTitle className="text-2xl font-bold text-accent font-headline">{spec.title}</CardTitle>
                 <CardDescription className="pt-2 text-md text-foreground/90">{spec.description}</CardDescription>
