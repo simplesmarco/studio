@@ -24,7 +24,7 @@ export function Header() {
             <span className="font-bold text-lg text-primary">Dr. Lucas Ribeiro</span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-4 text-sm font-medium">
+            <nav className="hidden md:flex items-center gap-6 text-base font-medium">
             {navLinks.map((link) => (
                 <Link key={link.href} href={link.href} className="text-foreground/80 transition-colors hover:text-foreground">
                 {link.label}
