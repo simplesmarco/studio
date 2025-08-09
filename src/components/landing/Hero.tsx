@@ -4,6 +4,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export function Hero() {
+  const imageSrc = `/images/hero-image.jpeg?t=${new Date().getTime()}`;
+
   return (
     <section id="inicio" className="w-full py-20 md:py-32 bg-primary/5">
       <div className="container mx-auto px-4 md:px-6">
@@ -44,7 +46,7 @@ export function Hero() {
           </div>
           <div className="hidden lg:flex justify-center">
             <Image
-              src="/images/hero-image.jpeg"
+              src={imageSrc}
               alt="Dr. Lucas Ribeiro atendendo um paciente"
               width={450}
               height={450} 
