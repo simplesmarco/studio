@@ -37,7 +37,7 @@ export function About() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <Image
-              src="/images/doctor-profile.jpg"
+              src="/images/doctor-profile.jpeg"
               alt="Foto do Dr. Lucas Ribeiro"
               width={500}
               height={550}

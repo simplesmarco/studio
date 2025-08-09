@@ -44,7 +44,7 @@ export function Hero() {
           </div>
           <div className="hidden lg:flex justify-center">
             <Image
-              src="/images/hero-image.jpg"
+              src="/images/hero-image.jpeg"
               alt="Dr. Lucas Ribeiro atendendo um paciente"
               width={450}
               height={450} 
