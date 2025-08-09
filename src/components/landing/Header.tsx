@@ -18,20 +18,22 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="font-bold text-lg text-primary">Dr. Lucas Ribeiro</span>
-        </Link>
-
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="text-foreground/80 transition-colors hover:text-foreground">
-              {link.label}
+      <div className="container flex h-16 items-center">
+        <div className="flex items-center gap-8">
+            <Link href="/" className="flex items-center gap-2">
+            <span className="font-bold text-lg text-primary">Dr. Lucas Ribeiro</span>
             </Link>
-          ))}
-        </nav>
 
-        <div className="hidden md:flex items-center gap-4">
+            <nav className="hidden md:flex items-center gap-4 text-sm font-medium">
+            {navLinks.map((link) => (
+                <Link key={link.href} href={link.href} className="text-foreground/80 transition-colors hover:text-foreground">
+                {link.label}
+                </Link>
+            ))}
+            </nav>
+        </div>
+
+        <div className="hidden md:flex items-center gap-4 ml-auto">
             <a href="tel:1134567890" className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-foreground">
                 <Phone size={16} /> (11) 3456-7890
             </a>
@@ -44,7 +46,7 @@ export function Header() {
         </div>
 
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger asChild className="md:hidden">
+          <SheetTrigger asChild className="md:hidden ml-auto">
             <Button variant="outline" size="icon">
               <Menu className="h-5 w-5" />
               <span className="sr-only">Abrir menu</span>
