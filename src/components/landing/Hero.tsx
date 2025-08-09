@@ -49,6 +49,7 @@ export function Hero() {
               width={450}
               height={450} 
               className="rounded-full object-cover shadow-2xl"
+              data-ai-hint="physiotherapist patient"
             />
           </div>
         </div>
