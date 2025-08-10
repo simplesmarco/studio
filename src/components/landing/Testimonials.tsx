@@ -8,21 +8,21 @@ const testimonials = [
     name: 'André Zaki',
     result: 'Lucas é ótimo! Profissional de conduta ilibada! Recomendadíssimo.',
     avatar: 'AZ',
-    image: 'https://placehold.co/100x100.png',
+    image: '/images/andre-zaki.png',
     hint: 'happy man'
   },
   {
     name: 'Alessandra Santos Xavier',
     result: 'Lucas é um exemplo de profissional que cuida do paciente com zelo, cuidado e atenção a todo momento. Confiamos de olhos fechados em seu trabalho ♥️',
     avatar: 'AX',
-    image: 'https://placehold.co/100x100.png',
+    image: '/images/alessandra-xavier.png',
     hint: 'smiling woman'
   },
   {
     name: 'Danyelle Chemiscok',
     result: 'Excelente profissional. Visível a dedicação e domínio na profissão. Além de ser um ótimo profissional, trata seus pacientes com muita empatia e respeito. Isso faz toda a diferença.',
     avatar: 'DC',
-    image: 'https://placehold.co/100x100.png',
+    image: '/images/danielle-chemiscok.png',
     hint: 'relaxed person'
   },
 ];
