@@ -1,10 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { MapPin } from 'lucide-react';
-import Image from 'next/image';
 
 export function Location() {
   const address = "R. Comendador Ângelo Rinaldi, 164 - Sala 21, Parque Santos Dumont, Taboão da Serra - SP, CEP: 06754-070";
   const googleMapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(address)}`;
+  const googleMapsEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(address)}&t=&z=17&ie=UTF8&iwloc=&output=embed`;
+
 
   return (
     <section id="localizacao" className="w-full py-20 md:py-24 bg-primary/5">
@@ -29,16 +30,13 @@ export function Location() {
             </Button>
           </div>
           <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-lg border">
-             <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer" className="block w-full h-full">
-                <Image
-                  src="https://placehold.co/800x600.png"
-                  alt="Mapa da localização do consultório"
-                  width={800}
-                  height={600}
-                  className="w-full h-full object-cover"
-                  data-ai-hint="city map"
-                />
-             </a>
+            <iframe
+                className="w-full h-full"
+                src={googleMapsEmbedUrl}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa da Localização do Consultório"
+            ></iframe>
           </div>
         </div>
       </div>
