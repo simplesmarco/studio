@@ -7,7 +7,7 @@ const specialties = [
     description: 'Técnica manual para alinhamento da coluna vertebral.',
     indications: 'Dores nas costas, hérnias, ciática, dores no pescoço.',
     benefits: 'Alívio imediato da dor, melhora da postura, aumento da mobilidade.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1699523229487-bddb965a3307?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxxdWlyb3ByYXhpYXxlbnwwfHx8fDE3NTQ3ODc2NTB8MA&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'chiropractic adjustment'
   },
   {
