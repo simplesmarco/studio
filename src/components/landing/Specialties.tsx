@@ -31,7 +31,7 @@ const specialties = [
     description: 'Tratamento de lesões e disfunções do sistema músculo-esquelético.',
     indications: 'Lesões esportivas, reabilitação, problemas articulares.',
     benefits: 'Recuperação funcional, prevenção de lesões, fortalecimento.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1597764690523-15bea4c581c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcnRob3BlZGljfGVufDB8fHx8MTc1NDc4ODM1OHww&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'orthopedic therapy'
   },
 ];
