@@ -16,7 +16,7 @@ const processSteps = [
   },
   {
     step: 4,
-    title: 'ACOMPANHAMENTO',
+    title: 'ACOMPANHAMENTO ESPECÍFICO',
     description: 'Monitoramento da evolução e ajustes necessários.',
   },
 ];
