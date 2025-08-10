@@ -5,29 +5,23 @@ import Image from 'next/image';
 
 const testimonials = [
   {
-    name: 'João da Silva',
-    age: 45,
-    problem: 'Dor Lombar Crônica',
-    result: 'Finalmente consigo brincar com meus filhos sem dor. A quiropraxia foi um divisor de águas na minha vida.',
-    avatar: 'JS',
+    name: 'André Zaki',
+    result: 'Lucas é ótimo! Profissional de conduta ilibada! Recomendadíssimo.',
+    avatar: 'AZ',
     image: 'https://placehold.co/100x100.png',
     hint: 'happy man'
   },
   {
-    name: 'Maria Oliveira',
-    age: 32,
-    problem: 'Lesão no Ombro (Esportiva)',
-    result: 'Voltei a treinar com força total e sem medo. A combinação de dry needling com a ortopedia foi perfeita para mim.',
-    avatar: 'MO',
+    name: 'Alessandra Santos Xavier',
+    result: 'Lucas é um exemplo de profissional que cuida do paciente com zelo, cuidado e atenção a todo momento. Confiamos de olhos fechados em seu trabalho ♥️',
+    avatar: 'AX',
     image: 'https://placehold.co/100x100.png',
     hint: 'smiling woman'
   },
   {
-    name: 'Carlos Pereira',
-    age: 58,
-    problem: 'Tensão Muscular no Pescoço',
-    result: 'As sessões de liberação miofascial aliviaram uma tensão que eu sentia há anos. Durmo muito melhor agora.',
-    avatar: 'CP',
+    name: 'Danyelle Chemiscok',
+    result: 'Excelente profissional. Visível a dedicação e domínio na profissão. Além de ser um ótimo profissional, trata seus pacientes com muita empatia e respeito. Isso faz toda a diferença.',
+    avatar: 'DC',
     image: 'https://placehold.co/100x100.png',
     hint: 'relaxed person'
   },
@@ -57,8 +51,7 @@ export function Testimonials() {
                   <AvatarFallback>{testimonial.avatar}</AvatarFallback>
                 </Avatar>
                 <div>
-                  <p className="font-semibold text-foreground">{testimonial.name}, {testimonial.age}</p>
-                  <p className="text-sm text-foreground/70">{testimonial.problem}</p>
+                  <p className="font-semibold text-foreground">{testimonial.name}</p>
                 </div>
               </div>
             </Card>
