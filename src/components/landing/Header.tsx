@@ -18,13 +18,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
-        <div className="flex items-center gap-8">
+      <div className="container flex h-16 items-center px-4 md:px-6">
+        <div className="flex items-center gap-8 ml-4">
             <Link href="/" className="flex items-center gap-2">
-            <span className="font-bold text-lg text-primary">Dr. Lucas Ribeiro</span>
+            <span className="font-bold text-xl text-primary">Dr. Lucas Ribeiro</span>
             </Link>
 
-            <nav className="hidden md:flex items-center gap-6 text-base font-medium">
+            <nav className="hidden md:flex items-center gap-6 text-lg font-medium">
             {navLinks.map((link) => (
                 <Link key={link.href} href={link.href} className="text-foreground/80 transition-colors hover:text-foreground">
                 {link.label}
