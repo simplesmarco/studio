@@ -15,7 +15,7 @@ const specialties = [
     description: 'Técnica para liberar tensões nos músculos e fáscias.',
     indications: 'Tensões musculares, dor crônica, limitação de movimento.',
     benefits: 'Relaxamento muscular, melhora da flexibilidade, redução da dor.',
-    image: 'https://placehold.co/600x400.png',
+    image: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYXNzYWdlfGVufDB8fHx8fDE3NTQ3ODc5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080',
     hint: 'myofascial release'
   },
   {
