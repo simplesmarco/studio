@@ -41,7 +41,7 @@ export function Header() {
                 <MessageCircle size={16} /> (11) 9 8765-3214
             </a>
             <Button asChild>
-                <Link href="#agendar">AGENDAR CONSULTE</Link>
+                <Link href="#agendar">AGENDAR CONSULTA</Link>
             </Button>
         </div>
 
@@ -72,7 +72,7 @@ export function Header() {
                     <MessageCircle size={16} /> (11) 9 8765-3214
                 </a>
                 <Button asChild className="w-full mt-2">
-                    <Link href="#agendar" onClick={() => setIsOpen(false)}>AGENDAR CONSULTE</Link>
+                    <Link href="#agendar" onClick={() => setIsOpen(false)}>AGENDAR CONSULTA</Link>
                 </Button>
               </div>
             </div>
