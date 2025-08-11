@@ -98,9 +98,9 @@ export function Contact() {
           </Card>
           <div className="space-y-8 flex flex-col justify-center">
             <h3 className="text-2xl font-bold text-foreground">Outras Formas de Contato</h3>
-            <a href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-lg text-foreground/80 hover:text-primary transition-colors">
+            <a href="https://wa.me/5511987653214" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-lg text-foreground/80 hover:text-primary transition-colors">
               <MessageCircle className="w-8 h-8 text-accent" />
-              <div><p className="font-semibold">WhatsApp</p><p>(11) 9 8765-4321</p></div>
+              <div><p className="font-semibold">WhatsApp</p><p>(11) 9 8765-3214</p></div>
             </a>
             <a href="tel:1134567890" className="flex items-center gap-4 text-lg text-foreground/80 hover:text-primary transition-colors">
               <Phone className="w-8 h-8 text-accent" />

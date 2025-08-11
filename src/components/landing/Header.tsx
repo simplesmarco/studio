@@ -37,8 +37,8 @@ export function Header() {
             <a href="tel:1134567890" className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-foreground">
                 <Phone size={16} /> (11) 3456-7890
             </a>
-            <a href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-foreground">
-                <MessageCircle size={16} /> (11) 9 8765-4321
+            <a href="https://wa.me/5511987653214" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-foreground">
+                <MessageCircle size={16} /> (11) 9 8765-3214
             </a>
             <Button asChild>
                 <Link href="#agendar">AGENDAR CONSULTE</Link>
@@ -68,8 +68,8 @@ export function Header() {
                 <a href="tel:1134567890" className="flex items-center gap-2 text-sm font-medium">
                     <Phone size={16} /> (11) 3456-7890
                 </a>
-                <a href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium">
-                    <MessageCircle size={16} /> (11) 9 8765-4321
+                <a href="https://wa.me/5511987653214" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm font-medium">
+                    <MessageCircle size={16} /> (11) 9 8765-3214
                 </a>
                 <Button asChild className="w-full mt-2">
                     <Link href="#agendar" onClick={() => setIsOpen(false)}>AGENDAR CONSULTE</Link>

@@ -29,7 +29,7 @@ export function Footer() {
           <div className="space-y-2">
             <h4 className="font-semibold text-primary-foreground mb-2">Contato</h4>
             <p>Telefone: (11) 3456-7890</p>
-            <p>WhatsApp: (11) 9 8765-4321</p>
+            <p>WhatsApp: (11) 9 8765-3214</p>
             <p>E-mail: contato@drlucasribeiro.com.br</p>
           </div>
           <div className="space-y-2">

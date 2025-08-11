@@ -42,7 +42,7 @@ const dynamicFaqPrompt = ai.definePrompt({
   Dr. Lucas Ribeiro offers specialized treatments in Quiropraxia, Liberação Miofascial, Dry Needling, and Ortopedia.
   He has 10 years of experience and provides personalized treatment plans based on individual needs.
   Services are available both at the clinic located in R. Comendador Ângelo Rinaldi, 164 - Sala 21, Parque Santos Dumont, Taboão da Serra - SP, CEP: 06754-070, and through at-home visits.
-  To schedule a consultation, you can contact via WhatsApp at (11) 9 8765-4321 or by phone at (11) 3456-7890.
+  To schedule a consultation, you can contact via WhatsApp at (11) 9 8765-3214 or by phone at (11) 3456-7890.
 
   Question: {{{question}}}
   `,
