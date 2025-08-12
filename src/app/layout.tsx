@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'VitalFlow Physiotherapy | Dr. Lucas Ribeiro',
+  title: 'Dr. Lucas Ribeiro | Fisioterapia',
   description: 'Livre-se da dor e recupere sua qualidade de vida com tratamentos especializados em Quiropraxia, Liberação Miofascial, Dry Needling e Ortopedia.',
   keywords: 'fisioterapia, quiropraxia, liberação miofascial, dry needling, ortopedia, dor nas costas, taboão da serra, dr lucas ribeiro',
 };
